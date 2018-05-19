@@ -6,4 +6,5 @@ def oxford_comma(array)
   else
     array[-1] = 'and ' + array.last
     array.join(", ")
+  end
 end
